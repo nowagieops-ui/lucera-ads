@@ -1,0 +1,173 @@
+{
+ "id": "batch-3",
+ "name": "Batch 3 (26, 29, 8, 9, 14)",
+ "campaign": "Lucera - Lancio batch 3 (5 prodotti)",
+ "adset": "week 1 - IT 18-65",
+ "ads": [
+  {
+   "name": "felpa singola",
+   "type": "image",
+   "file": "batches/batch-3/files/lucera_felpa_single.jpg",
+   "title": "Felpa Mezza Zip con Stampa Effetto Maglia",
+   "body": "La felpa con mezza zip che dà un tocco da maglione ai look di ogni giorno: colletto alto e stampa effetto trecce. Consegna gratuita in Italia, reso entro 30 giorni.",
+   "link": "https://luceramoda.com/products/felpa-mezza-zip-stampa-effetto-maglia",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b3&utm_content=felpa_singola",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "felpa collage",
+   "type": "image",
+   "file": "batches/batch-3/files/lucera_felpa_collage2.jpg",
+   "title": "Felpa Mezza Zip con Stampa Effetto Maglia",
+   "body": "Più capi scegli, più risparmi: lo sconto di lancio si applica da solo nel carrello. Mezza zip, colletto alto e stampa effetto trecce, in bianco e azzurro polvere. Vestibilità slim.",
+   "link": "https://luceramoda.com/products/felpa-mezza-zip-stampa-effetto-maglia",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b3&utm_content=felpa_collage",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "felpa video",
+   "type": "video",
+   "file": "batches/batch-3/files/lucera_felpa_video.mp4",
+   "title": "Felpa Mezza Zip con Stampa Effetto Maglia",
+   "body": "Mezza zip e stampa effetto maglia: un solo capo e il look di tutti i giorni è fatto. Pagamento con carta, PayPal o in 3 rate.",
+   "link": "https://luceramoda.com/products/felpa-mezza-zip-stampa-effetto-maglia",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b3&utm_content=felpa_video",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "giacca singola",
+   "type": "image",
+   "file": "batches/batch-3/files/lucera_giacca_single.jpg",
+   "title": "Giacca in Velluto a Coste con Collo Alto",
+   "body": "La giacca in velluto a coste che dà carattere a un look semplice: collo alto, bottoni e tasche a patta, da portare su dolcevita e jeans. Consegna gratuita in Italia, reso entro 30 giorni.",
+   "link": "https://luceramoda.com/products/giacca-velluto-a-coste-collo-alto",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b3&utm_content=giacca_singola",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "giacca collage",
+   "type": "image",
+   "file": "batches/batch-3/files/lucera_giacca_collage2.jpg",
+   "title": "Giacca in Velluto a Coste con Collo Alto",
+   "body": "Più capi scegli, più risparmi: lo sconto di lancio si applica da solo nel carrello. Velluto a coste, collo alto e tasche a patta, in cinque colori tra verde bosco, grigio antracite, cammello, nero e bordeaux.",
+   "link": "https://luceramoda.com/products/giacca-velluto-a-coste-collo-alto",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b3&utm_content=giacca_collage",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "giacca video",
+   "type": "video",
+   "file": "batches/batch-3/files/lucera_giacca_video.mp4",
+   "title": "Giacca in Velluto a Coste con Collo Alto",
+   "body": "Collo alto, bottoni e tasche a patta: la giacca in velluto che porti dal lavoro alla sera. Pagamento con carta, PayPal o in 3 rate.",
+   "link": "https://luceramoda.com/products/giacca-velluto-a-coste-collo-alto",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b3&utm_content=giacca_video",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "ecopelle singola",
+   "type": "image",
+   "file": "batches/batch-3/files/lucera_ecopelle_single.jpg",
+   "title": "Giacca in Ecopelle con Cappuccio",
+   "body": "La giacca corta in ecopelle con cappuccio che dà un tocco deciso a jeans e pantaloni: zip e taglio dritto, facile da abbinare. Consegna gratuita in Italia, reso entro 30 giorni.",
+   "link": "https://luceramoda.com/products/giacca-in-ecopelle-con-cappuccio",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b3&utm_content=ecopelle_singola",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "ecopelle collage",
+   "type": "image",
+   "file": "batches/batch-3/files/lucera_ecopelle_collage2.jpg",
+   "title": "Giacca in Ecopelle con Cappuccio",
+   "body": "Più capi scegli, più risparmi: lo sconto di lancio si applica da solo nel carrello. Ecopelle (PU) dall'aspetto pulito, cappuccio e chiusura con zip, in taglio dritto e corto.",
+   "link": "https://luceramoda.com/products/giacca-in-ecopelle-con-cappuccio",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b3&utm_content=ecopelle_collage",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "ecopelle video",
+   "type": "video",
+   "file": "batches/batch-3/files/lucera_ecopelle_video.mp4",
+   "title": "Giacca in Ecopelle con Cappuccio",
+   "body": "Cappuccio, zip e taglio corto: un capo che cambia subito il look di ogni giorno. Pagamento con carta, PayPal o in 3 rate.",
+   "link": "https://luceramoda.com/products/giacca-in-ecopelle-con-cappuccio",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b3&utm_content=ecopelle_video",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "mocassini singola",
+   "type": "image",
+   "file": "batches/batch-3/files/lucera_mocassini_single.jpg",
+   "title": "Mocassini con Lacci e Suola Spessa",
+   "body": "Le scarpe comode che danno carattere a ogni look, dal lavoro al weekend: punta tonda, lacci e suola spessa. Consegna gratuita in Italia, reso entro 30 giorni.",
+   "link": "https://luceramoda.com/products/mocassini-con-lacci-e-suola-spessa",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b3&utm_content=mocassini_singola",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "mocassini collage",
+   "type": "image",
+   "file": "batches/batch-3/files/lucera_mocassini_collage2.jpg",
+   "title": "Mocassini con Lacci e Suola Spessa",
+   "body": "Più capi scegli, più risparmi: lo sconto di lancio si applica da solo nel carrello. Punta tonda, allacciatura frontale e suola spessa per un passo comodo, in bordeaux e beige.",
+   "link": "https://luceramoda.com/products/mocassini-con-lacci-e-suola-spessa",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b3&utm_content=mocassini_collage",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "mocassini video",
+   "type": "video",
+   "file": "batches/batch-3/files/lucera_mocassini_video.mp4",
+   "title": "Mocassini con Lacci e Suola Spessa",
+   "body": "Suola spessa, lacci e punta tonda: bastano loro a dare carattere a un look semplice. Pagamento con carta, PayPal o in 3 rate.",
+   "link": "https://luceramoda.com/products/mocassini-con-lacci-e-suola-spessa",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b3&utm_content=mocassini_video",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "gilet singola",
+   "type": "image",
+   "file": "batches/batch-3/files/lucera_gilet_single.jpg",
+   "title": "Completo Gilet e Pantaloni a Vita Alta",
+   "body": "Gilet con scollo a V e pantaloni a vita alta e gamba ampia: due pezzi che stanno bene insieme e anche separati. Consegna gratuita in Italia, reso entro 30 giorni.",
+   "link": "https://luceramoda.com/products/completo-gilet-e-pantaloni-a-vita-alta",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b3&utm_content=gilet_singola",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "gilet collage",
+   "type": "image",
+   "file": "batches/batch-3/files/lucera_gilet_collage2.jpg",
+   "title": "Completo Gilet e Pantaloni a Vita Alta",
+   "body": "Più capi scegli, più risparmi: lo sconto di lancio si applica da solo nel carrello. Gilet slim fit con tre bottoni e pantaloni a vita alta, in sei colori: crema, nero, grigio azzurro, rosa, bordeaux e menta.",
+   "link": "https://luceramoda.com/products/completo-gilet-e-pantaloni-a-vita-alta",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b3&utm_content=gilet_collage",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "gilet video",
+   "type": "video",
+   "file": "batches/batch-3/files/lucera_gilet_video.mp4",
+   "title": "Completo Gilet e Pantaloni a Vita Alta",
+   "body": "Un completo sempre pronto: gilet e pantaloni a gamba ampia, da portare insieme o separati. Pagamento con carta, PayPal o in 3 rate.",
+   "link": "https://luceramoda.com/products/completo-gilet-e-pantaloni-a-vita-alta",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b3&utm_content=gilet_video",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  }
+ ]
+}

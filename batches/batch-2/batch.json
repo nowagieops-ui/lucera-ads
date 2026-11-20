@@ -1,0 +1,173 @@
+{
+ "id": "batch-2",
+ "name": "Batch 2 (23, 24, 25, 27, 28)",
+ "campaign": "Lucera - Lancio batch 2 (5 prodotti)",
+ "adset": "week 1 - IT 18-65",
+ "ads": [
+  {
+   "name": "maglione singola",
+   "type": "image",
+   "file": "batches/batch-2/files/lucera_maglione_single.jpg",
+   "title": "Maglione Girocollo con Motivo Nordico",
+   "body": "Il maglione con motivo nordico che dà carattere a un look semplice: bastano jeans e stivaletti, per le giornate fresche. Consegna gratuita in Italia, reso entro 30 giorni.",
+   "link": "https://luceramoda.com/products/maglione-girocollo-motivo-nordico",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b2&utm_content=maglione_single",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "maglione collage",
+   "type": "image",
+   "file": "batches/batch-2/files/lucera_maglione_collage2.jpg",
+   "title": "Maglione Girocollo con Motivo Nordico",
+   "body": "Più capi scegli, più risparmi: lo sconto di lancio si applica da solo nel carrello. Maglione girocollo in maglia a punto grosso, in sei varianti tra rosa, azzurro e grigio.",
+   "link": "https://luceramoda.com/products/maglione-girocollo-motivo-nordico",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b2&utm_content=maglione_collage",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "maglione video",
+   "type": "video",
+   "file": "batches/batch-2/files/lucera_maglione_video.mp4",
+   "title": "Maglione Girocollo con Motivo Nordico",
+   "body": "Jeans, stivaletti e un maglione con motivo nordico: l'outfit di stagione è fatto. Pagamento con carta, PayPal o in 3 rate.",
+   "link": "https://luceramoda.com/products/maglione-girocollo-motivo-nordico",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b2&utm_content=maglione_video",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "abito singola",
+   "type": "image",
+   "file": "batches/batch-2/files/lucera_abito_single.jpg",
+   "title": "Abito Lungo Dolcevita con Gonna a Pieghe",
+   "body": "L'abito lungo da indossare da solo: collo alto, gonna ampia a pieghe e l'outfit è fatto, dal giorno alla sera. Consegna gratuita in Italia, reso entro 30 giorni.",
+   "link": "https://luceramoda.com/products/abito-lungo-dolcevita-gonna-pieghe",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b2&utm_content=abito_single",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "abito collage",
+   "type": "image",
+   "file": "batches/batch-2/files/lucera_abito_collage2.jpg",
+   "title": "Abito Lungo Dolcevita con Gonna a Pieghe",
+   "body": "Più capi scegli, più risparmi: lo sconto di lancio si applica da solo nel carrello. Abito lungo nero con collo a dolcevita e gonna a pieghe con orlo asimmetrico.",
+   "link": "https://luceramoda.com/products/abito-lungo-dolcevita-gonna-pieghe",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b2&utm_content=abito_collage",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "abito video",
+   "type": "video",
+   "file": "batches/batch-2/files/lucera_abito_video.mp4",
+   "title": "Abito Lungo Dolcevita con Gonna a Pieghe",
+   "body": "Collo alto, maniche lunghe e una gonna che si muove con te: con stivaletti e una borsa sei a posto. Pagamento con carta, PayPal o in 3 rate.",
+   "link": "https://luceramoda.com/products/abito-lungo-dolcevita-gonna-pieghe",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b2&utm_content=abito_video",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "stivaletti singola",
+   "type": "image",
+   "file": "batches/batch-2/files/lucera_stivaletti_single.jpg",
+   "title": "Stivaletti con Fibbia e Tacco a Spillo",
+   "body": "Gli stivaletti con il tacco che alzano un outfit semplice: con jeans o pantaloni dritti, dal giorno alla sera. Consegna gratuita in Italia, reso entro 30 giorni.",
+   "link": "https://luceramoda.com/products/stivaletti-fibbia-tacco-a-spillo",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b2&utm_content=stivaletti_single",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "stivaletti collage",
+   "type": "image",
+   "file": "batches/batch-2/files/lucera_stivaletti_collage2.jpg",
+   "title": "Stivaletti con Fibbia e Tacco a Spillo",
+   "body": "Più capi scegli, più risparmi: lo sconto di lancio si applica da solo nel carrello. Stivaletti alla caviglia in ecopelle con fibbia in evidenza, in beige o nero.",
+   "link": "https://luceramoda.com/products/stivaletti-fibbia-tacco-a-spillo",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b2&utm_content=stivaletti_collage",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "stivaletti video",
+   "type": "video",
+   "file": "batches/batch-2/files/lucera_stivaletti_video.mp4",
+   "title": "Stivaletti con Fibbia e Tacco a Spillo",
+   "body": "Fibbia in evidenza, tacco sottile e punta affusolata: bastano loro a cambiare il look. Pagamento con carta, PayPal o in 3 rate.",
+   "link": "https://luceramoda.com/products/stivaletti-fibbia-tacco-a-spillo",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b2&utm_content=stivaletti_video",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "pullover singola",
+   "type": "image",
+   "file": "batches/batch-2/files/lucera_pullover_single.jpg",
+   "title": "Pullover con Colletto Effetto Pelliccia",
+   "body": "Il pullover con il colletto morbido che dà carattere a jeans e stivaletti: mezza zip e stampa effetto maglia. Consegna gratuita in Italia, reso entro 30 giorni.",
+   "link": "https://luceramoda.com/products/pullover-mezza-zip-colletto-effetto-pelliccia",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b2&utm_content=pullover_single",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "pullover collage",
+   "type": "image",
+   "file": "batches/batch-2/files/lucera_pullover_collage2.jpg",
+   "title": "Pullover con Colletto Effetto Pelliccia",
+   "body": "Più capi scegli, più risparmi: lo sconto di lancio si applica da solo nel carrello. Mezza zip, colletto effetto pelliccia e stampa effetto maglia, in sei varianti.",
+   "link": "https://luceramoda.com/products/pullover-mezza-zip-colletto-effetto-pelliccia",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b2&utm_content=pullover_collage",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "pullover video",
+   "type": "video",
+   "file": "batches/batch-2/files/lucera_pullover_video.mp4",
+   "title": "Pullover con Colletto Effetto Pelliccia",
+   "body": "Mezza zip e colletto effetto pelliccia: un solo capo e il look è fatto. Pagamento con carta, PayPal o in 3 rate.",
+   "link": "https://luceramoda.com/products/pullover-mezza-zip-colletto-effetto-pelliccia",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b2&utm_content=pullover_video",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "giubbotto singola",
+   "type": "image",
+   "file": "batches/batch-2/files/lucera_giubbotto_single.jpg",
+   "title": "Giubbotto Trapuntato con Collo Alto",
+   "body": "Il giubbotto trapuntato che completa un look casual senza pensarci: da portare su una maglia, una camicia o una t-shirt. Consegna gratuita in Italia, reso entro 30 giorni.",
+   "link": "https://luceramoda.com/products/giubbotto-trapuntato-collo-alto-tasche",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b2&utm_content=giubbotto_single",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "giubbotto collage",
+   "type": "image",
+   "file": "batches/batch-2/files/lucera_giubbotto_collage2.jpg",
+   "title": "Giubbotto Trapuntato con Collo Alto",
+   "body": "Più capi scegli, più risparmi: lo sconto di lancio si applica da solo nel carrello. Collo alto, zip e tasche sul petto, in quattro colori.",
+   "link": "https://luceramoda.com/products/giubbotto-trapuntato-collo-alto-tasche",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b2&utm_content=giubbotto_collage",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "giubbotto video",
+   "type": "video",
+   "file": "batches/batch-2/files/lucera_giubbotto_video.mp4",
+   "title": "Giubbotto Trapuntato con Collo Alto",
+   "body": "Collo alto, zip e tasche sul petto: un capo facile per ogni giorno. Pagamento con carta, PayPal o in 3 rate.",
+   "link": "https://luceramoda.com/products/giubbotto-trapuntato-collo-alto-tasche",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b2&utm_content=giubbotto_video",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  }
+ ]
+}

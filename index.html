@@ -1,0 +1,31 @@
+<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<title>Lucera Ads</title>
+<style>
+:root{--bg:#f6f1e9;--card:#fff;--ink:#1d1b18;--mut:#6f685e;--acc:#2b4a3a;--line:#e4dccf}
+@media(prefers-color-scheme:dark){:root{--bg:#161513;--card:#201f1c;--ink:#f1ece3;--mut:#a39b8e;--acc:#8fc4a6;--line:#35322c}}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,sans-serif}
+header{padding:20px 16px;max-width:1100px;margin:auto}h1{margin:0 0 10px;font-size:22px}
+select{font:inherit;padding:8px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.meta{color:var(--mut);margin-top:8px;font-size:13px}
+main{max-width:1100px;margin:auto;padding:0 16px 40px;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.card img,.card video{width:100%;max-height:420px;object-fit:contain;background:#000}
+.in{padding:12px;display:flex;flex-direction:column;gap:8px}.nm{font-weight:600}
+.f{border:1px solid var(--line);border-radius:8px;padding:8px;font-size:13px}.f b{display:block;font-size:11px;color:var(--mut);text-transform:uppercase;margin-bottom:2px}
+.f span{word-break:break-word}
+button,a.b{font:inherit;font-size:13px;padding:5px 10px;border-radius:7px;border:1px solid var(--acc);background:transparent;color:var(--acc);cursor:pointer;text-decoration:none;margin:6px 6px 0 0;display:inline-block}
+button.ok{background:var(--acc);color:var(--bg)}
+</style></head><body><header><h1>Lucera Ads</h1><select id="sel"></select><div class="meta" id="meta"></div></header><main id="m"></main>
+<script>
+const $=s=>document.querySelector(s);
+function copy(b,t){navigator.clipboard.writeText(t);b.classList.add('ok');b.textContent='Copiato';setTimeout(()=>{b.classList.remove('ok');b.textContent='Copia'},1200)}
+function field(l,v){const d=document.createElement('div');d.className='f';d.innerHTML='<b>'+l+'</b><span></span>';d.querySelector('span').textContent=v;const b=document.createElement('button');b.textContent='Copia';b.onclick=()=>copy(b,v);d.append(document.createElement('br'),b);return d}
+async function load(id){const b=await (await fetch('batches/'+id+'/batch.json')).json();
+$('#meta').textContent='Campagna: '+b.campaign+' · Ad set: '+b.adset;const m=$('#m');m.innerHTML='';
+for(const a of b.ads){const c=document.createElement('div');c.className='card';
+c.innerHTML=a.type=='video'?'<video controls preload="metadata" playsinline></video>':'<img loading="lazy">';c.firstChild.src=a.file;
+const i=document.createElement('div');i.className='in';i.innerHTML='<div class="nm"></div>';i.firstChild.textContent=a.name+' ('+a.type+')';
+i.append(field('Titolo',a.title),field('Testo',a.body),field('Link',a.link),field('Tag URL',a.tags));
+const dl=document.createElement('a');dl.className='b';dl.href=a.file;dl.download=a.file.split('/').pop();dl.textContent='Scarica file';i.append(dl);c.append(i);m.append(c)}}
+(async()=>{const x=await (await fetch('batches/index.json')).json();const s=$('#sel');x.forEach(b=>s.add(new Option(b.name,b.id)));s.onchange=()=>load(s.value);load(x[0].id)})();
+</script></body></html>
