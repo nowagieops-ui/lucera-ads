@@ -1,0 +1,41 @@
+{
+ "id": "batch-1-boots",
+ "name": "Batch 1 (Stivali Stile Biker)",
+ "campaign": "Lucera - Lancio 6 prodotti",
+ "adset": "week 1 - IT 18-65",
+ "ads": [
+  {
+   "name": "boots singola",
+   "type": "image",
+   "file": "batches/batch-1-boots/files/lucera_boots_single.jpg",
+   "title": "Stivali Stile Biker",
+   "body": "Stivali neri stile biker con lacci e suola spessa: carattere per ogni giorno. Consegna gratuita in Italia, reso entro 30 giorni.",
+   "link": "https://luceramoda.com/products/stivali-stile-biker",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio6&utm_content=boots_single",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "boots collage",
+   "type": "image",
+   "file": "batches/batch-1-boots/files/lucera_boots_collage.jpg",
+   "title": "Stivali Stile Biker",
+   "body": "Più capi scegli, più risparmi: lo sconto di lancio si applica da solo nel carrello. Stivali neri stile biker con lacci e suola spessa.",
+   "link": "https://luceramoda.com/products/stivali-stile-biker",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio6&utm_content=boots_collage",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "boots video",
+   "type": "video",
+   "file": "batches/batch-1-boots/files/lucera_boots_video.mp4",
+   "title": "Stivali Stile Biker",
+   "body": "Stivali neri stile biker con lacci e suola spessa: carattere per ogni giorno. Pagamento con carta, PayPal o in 3 rate.",
+   "link": "https://luceramoda.com/products/stivali-stile-biker",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio6&utm_content=boots_video",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  }
+ ]
+}
