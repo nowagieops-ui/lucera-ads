@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080">
+<title>Lucera Singola Callout Ads</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@300;400;500&display=swap">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { width: 1080px; height: 1350px; overflow: hidden; background: #F5F0E8; font-family: 'DM Sans', sans-serif; }
+
+.ad {
+  width: 1080px;
+  height: 1350px;
+  background: #F5F0E8;
+  display: none;
+  position: relative;
+}
+.ad.active { display: block; }
+
+.accent-strip {
+  position: absolute;
+  left: 0; right: 0; top: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #C9A86C 0%, #E8D5A8 50%, #C9A86C 100%);
+  z-index: 10;
+}
+
+/* Top bar */
+.top-bar {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 44px 0;
+  z-index: 5;
+}
+.brand {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: #1E1915;
+  text-transform: uppercase;
+}
+.price-tag {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: #1E1915;
+}
+
+/* Product image — centred, tall */
+.product-img {
+  position: absolute;
+  left: 50%;
+  top: 80px;
+  bottom: 160px;
+  transform: translateX(-50%);
+  width: 580px;
+  overflow: hidden;
+}
+.product-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  display: block;
+}
+
+/* Bottom strip */
+.bottom-strip {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 44px 24px;
+}
+.product-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 1.0;
+  color: #1E1915;
+}
+.product-sub {
+  font-size: 12px;
+  color: #6B5F53;
+  margin-top: 4px;
+  letter-spacing: 0.03em;
+}
+.cta-btn {
+  background: #1E1915;
+  color: #F5F0E8;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 14px 28px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+/* Callout dots */
+.callout {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+/* left-side callouts: dot on right, text on left */
+.callout.left {
+  flex-direction: row-reverse;
+}
+/* right-side callouts: dot on left, text on right */
+.callout.right {
+  flex-direction: row;
+}
+
+.dot {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #1E1915;
+  border: 2px solid #C9A86C;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 2;
+}
+.dot::after {
+  content: '';
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  background: #C9A86C;
+}
+
+.line {
+  height: 1px;
+  background: #1E1915;
+  opacity: 0.4;
+  width: 36px;
+  flex-shrink: 0;
+}
+
+.callout-box {
+  background: #1E1915;
+  color: #F5F0E8;
+  padding: 10px 16px;
+  border-radius: 3px;
+  min-width: 170px;
+  max-width: 210px;
+}
+.callout-title {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #C9A86C;
+  display: block;
+  margin-bottom: 3px;
+}
+.callout-desc {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #D8D0C4;
+}
+
+/* Nav */
+#nav {
+  position: fixed;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 100;
+  background: rgba(0,0,0,0.5);
+  padding: 7px 11px;
+  border-radius: 20px;
+}
+#nav button {
+  width: 9px; height: 9px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255,255,255,0.4);
+  cursor: pointer;
+  font-size: 0;
+}
+#nav button.on { background: white; }
+</style>
+</head>
+<body>
+
+<!-- ====== CERVINO ====== -->
+<div class="ad" data-id="cervino">
+  <div class="accent-strip"></div>
+  <div class="top-bar">
+    <span class="brand">Lucera</span>
+    <span class="price-tag">€ 59,99</span>
+  </div>
+  <div class="product-img">
+    <img src="cervino_s1.png" alt="Cervino">
+  </div>
+  <!-- Callout 1: left side, top -->
+  <div class="callout left" style="top:220px; left:38px;">
+    <div class="callout-box">
+      <span class="callout-title">Fodera Sherpa</span>
+      <span class="callout-desc">Calda come una coperta. Non si vede, fa tutto il lavoro.</span>
+    </div>
+    <div class="line"></div>
+    <div class="dot"></div>
+  </div>
+  <!-- Callout 2: left side, mid -->
+  <div class="callout left" style="top:530px; left:38px;">
+    <div class="callout-box">
+      <span class="callout-title">Zip in Metallo</span>
+      <span class="callout-desc">Costruita per aprire e chiudere mille volte senza cedere.</span>
+    </div>
+    <div class="line"></div>
+    <div class="dot"></div>
+  </div>
+  <!-- Callout 3: right side, top -->
+  <div class="callout right" style="top:300px; right:38px;">
+    <div class="dot"></div>
+    <div class="line"></div>
+    <div class="callout-box">
+      <span class="callout-title">Ecopelle a Grana</span>
+      <span class="callout-desc">Tiene la forma, facile da pulire, dura nel tempo.</span>
+    </div>
+  </div>
+  <div class="bottom-strip">
+    <div>
+      <div class="product-name">Cervino</div>
+      <div class="product-sub">Giubbotto in ecopelle con fodera sherpa</div>
+    </div>
+    <div class="cta-btn">Scopri di più</div>
+  </div>
+</div>
+
+<!-- ====== NICOLA ====== -->
+<div class="ad" data-id="nicola">
+  <div class="accent-strip"></div>
+  <div class="top-bar">
+    <span class="brand">Lucera</span>
+    <span class="price-tag">€ 64,99</span>
+  </div>
+  <div class="product-img">
+    <img src="nicola_s1.png" alt="Nicola">
+  </div>
+  <div class="callout left" style="top:220px; left:38px;">
+    <div class="callout-box">
+      <span class="callout-title">Fodera Termica</span>
+      <span class="callout-desc">Non gonfia. Non si vede. Fa il lavoro silenzioso.</span>
+    </div>
+    <div class="line"></div>
+    <div class="dot"></div>
+  </div>
+  <div class="callout left" style="top:530px; left:38px;">
+    <div class="callout-box">
+      <span class="callout-title">Zip in Metallo</span>
+      <span class="callout-desc">Nessun bottone che si apre al momento sbagliato.</span>
+    </div>
+    <div class="line"></div>
+    <div class="dot"></div>
+  </div>
+  <div class="callout right" style="top:300px; right:38px;">
+    <div class="dot"></div>
+    <div class="line"></div>
+    <div class="callout-box">
+      <span class="callout-title">Esterno Antivento</span>
+      <span class="callout-desc">Blocca raffiche e umidità. Tiene il tepore dentro.</span>
+    </div>
+  </div>
+  <div class="bottom-strip">
+    <div>
+      <div class="product-name">Nicola</div>
+      <div class="product-sub">Giacca invernale con fodera termica</div>
+    </div>
+    <div class="cta-btn">Scopri di più</div>
+  </div>
+</div>
+
+<!-- ====== MARCO ====== -->
+<div class="ad" data-id="marco">
+  <div class="accent-strip"></div>
+  <div class="top-bar">
+    <span class="brand">Lucera</span>
+    <span class="price-tag">€ 49,99</span>
+  </div>
+  <div class="product-img">
+    <img src="marco_s1.png" alt="Marco">
+  </div>
+  <div class="callout left" style="top:220px; left:38px;">
+    <div class="callout-box">
+      <span class="callout-title">ThermalShield™</span>
+      <span class="callout-desc">Caldo uniforme a canali orizzontali. Zero gonfiore.</span>
+    </div>
+    <div class="line"></div>
+    <div class="dot"></div>
+  </div>
+  <div class="callout left" style="top:530px; left:38px;">
+    <div class="callout-box">
+      <span class="callout-title">Colletto Alto</span>
+      <span class="callout-desc">Chiude fino al mento. Protegge dove serve, senza sciarpa.</span>
+    </div>
+    <div class="line"></div>
+    <div class="dot"></div>
+  </div>
+  <div class="callout right" style="top:300px; right:38px;">
+    <div class="dot"></div>
+    <div class="line"></div>
+    <div class="callout-box">
+      <span class="callout-title">Nylon Ripstop</span>
+      <span class="callout-desc">Leggero, robusto. Si arrotola in uno zaino.</span>
+    </div>
+  </div>
+  <div class="bottom-strip">
+    <div>
+      <div class="product-name">Marco</div>
+      <div class="product-sub">Piumino leggero con colletto alto</div>
+    </div>
+    <div class="cta-btn">Scopri di più</div>
+  </div>
+</div>
+
+<!-- ====== ROMANO ====== -->
+<div class="ad" data-id="romano">
+  <div class="accent-strip"></div>
+  <div class="top-bar">
+    <span class="brand">Lucera</span>
+    <span class="price-tag">€ 69,95</span>
+  </div>
+  <div class="product-img">
+    <img src="romano_s1.jpg" alt="Romano">
+  </div>
+  <div class="callout left" style="top:200px; left:38px;">
+    <div class="callout-box">
+      <span class="callout-title">Cappuccio 2 Pezzi</span>
+      <span class="callout-desc">Sembra una seconda giacca. Funziona come un riparo.</span>
+    </div>
+    <div class="line"></div>
+    <div class="dot"></div>
+  </div>
+  <div class="callout left" style="top:530px; left:38px;">
+    <div class="callout-box">
+      <span class="callout-title">Taglio Lungo</span>
+      <span class="callout-desc">Copre fino al ginocchio. Protegge da vento e pioggia.</span>
+    </div>
+    <div class="line"></div>
+    <div class="dot"></div>
+  </div>
+  <div class="callout right" style="top:300px; right:38px;">
+    <div class="dot"></div>
+    <div class="line"></div>
+    <div class="callout-box">
+      <span class="callout-title">Revers Classici</span>
+      <span class="callout-desc">Costruzione sartoriale su un capospalla quotidiano.</span>
+    </div>
+  </div>
+  <div class="bottom-strip">
+    <div>
+      <div class="product-name">Romano</div>
+      <div class="product-sub">Trench lungo con cappuccio</div>
+    </div>
+    <div class="cta-btn">Scopri di più</div>
+  </div>
+</div>
+
+<!-- ====== THATCHER ====== -->
+<div class="ad" data-id="thatcher">
+  <div class="accent-strip"></div>
+  <div class="top-bar">
+    <span class="brand">Lucera</span>
+    <span class="price-tag">€ 44,90</span>
+  </div>
+  <div class="product-img">
+    <img src="thatcher_s1.png" alt="Thatcher">
+  </div>
+  <div class="callout left" style="top:280px; left:38px;">
+    <div class="callout-box">
+      <span class="callout-title">Lana a Quadri</span>
+      <span class="callout-desc">Tessuto resistente. Tiene la forma stagione dopo stagione.</span>
+    </div>
+    <div class="line"></div>
+    <div class="dot"></div>
+  </div>
+  <div class="callout left" style="top:560px; left:38px;">
+    <div class="callout-box">
+      <span class="callout-title">Fodera Morbida</span>
+      <span class="callout-desc">Comoda da indossare tutto il giorno, anche al freddo.</span>
+    </div>
+    <div class="line"></div>
+    <div class="dot"></div>
+  </div>
+  <div class="callout right" style="top:380px; right:38px;">
+    <div class="dot"></div>
+    <div class="line"></div>
+    <div class="callout-box">
+      <span class="callout-title">Misura Regolabile</span>
+      <span class="callout-desc">Si adatta. Una taglia, nessun problema.</span>
+    </div>
+  </div>
+  <div class="bottom-strip">
+    <div>
+      <div class="product-name">Thatcher</div>
+      <div class="product-sub">Coppola in lana a quadri</div>
+    </div>
+    <div class="cta-btn">Scopri di più</div>
+  </div>
+</div>
+
+<div id="nav"></div>
+<script>
+const ads = document.querySelectorAll('.ad');
+const products = [...ads].map(a => a.dataset.id);
+const nav = document.getElementById('nav');
+products.forEach((p, i) => {
+  const btn = document.createElement('button');
+  btn.textContent = p;
+  btn.onclick = () => show(i);
+  nav.appendChild(btn);
+});
+function show(i) {
+  ads.forEach(a => a.classList.remove('active'));
+  ads[i].classList.add('active');
+  nav.querySelectorAll('button').forEach((b, j) => b.classList.toggle('on', j === i));
+}
+function fromHash() {
+  const h = location.hash.slice(1);
+  const idx = products.indexOf(h);
+  show(idx >= 0 ? idx : 0);
+}
+window.addEventListener('hashchange', fromHash);
+fromHash();
+</script>
+</body>
+</html>

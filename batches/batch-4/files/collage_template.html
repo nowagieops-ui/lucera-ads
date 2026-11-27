@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080">
+<title>Lucera Collage Ads</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@300;400;500&display=swap">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { width: 1080px; height: 1350px; overflow: hidden; background: #F5F0E8; font-family: 'DM Sans', sans-serif; }
+
+.ad {
+  width: 1080px;
+  height: 1350px;
+  background: #F5F0E8;
+  display: none;
+  flex-direction: column;
+  position: relative;
+}
+.ad.active { display: flex; }
+
+.accent-strip {
+  position: absolute;
+  left: 0; right: 0; top: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #C9A86C 0%, #E8D5A8 50%, #C9A86C 100%);
+  z-index: 10;
+}
+
+/* Top bar */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 44px 20px;
+  flex-shrink: 0;
+}
+.brand {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: #1E1915;
+  text-transform: uppercase;
+}
+.season-tag {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #8A7E72;
+  border: 1px solid #C8BFB0;
+  padding: 5px 12px;
+  border-radius: 2px;
+}
+
+/* Grid: left big + right stack */
+.grid {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 6px;
+  padding: 0 20px;
+  flex: 1;
+  min-height: 0;
+}
+.img-main {
+  grid-row: 1 / 3;
+  background: #EDE8DF;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+.img-sm {
+  background: #EDE8DF;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+.img-main img,
+.img-sm img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.shot-label {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #8A7E72;
+  background: rgba(245,240,232,0.88);
+  padding: 3px 8px;
+  border-radius: 2px;
+}
+
+/* Bottom */
+.bottom-info {
+  padding: 20px 44px 32px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.product-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 1.0;
+  color: #1E1915;
+  margin-bottom: 6px;
+}
+.product-sub {
+  font-size: 13px;
+  color: #6B5F53;
+  letter-spacing: 0.03em;
+  line-height: 1.4;
+}
+.price-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+.price {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 34px;
+  font-weight: 600;
+  color: #1E1915;
+}
+.cta-btn {
+  background: #1E1915;
+  color: #F5F0E8;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 12px 24px;
+  border-radius: 2px;
+}
+.site-url {
+  font-size: 10px;
+  color: #9A8E82;
+  letter-spacing: 0.06em;
+}
+
+/* Nav */
+#nav {
+  position: fixed;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 100;
+  background: rgba(0,0,0,0.5);
+  padding: 7px 11px;
+  border-radius: 20px;
+}
+#nav button {
+  width: 9px; height: 9px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255,255,255,0.4);
+  cursor: pointer;
+  font-size: 0;
+}
+#nav button.on { background: white; }
+</style>
+</head>
+<body>
+
+<!-- CERVINO -->
+<div class="ad" data-id="cervino">
+  <div class="accent-strip"></div>
+  <div class="top-bar">
+    <span class="brand">Lucera</span>
+    <span class="season-tag">FW 2025 · Capospalla</span>
+  </div>
+  <div class="grid">
+    <div class="img-main">
+      <img src="cervino_s1.png" alt="">
+      <span class="shot-label">Vista frontale</span>
+    </div>
+    <div class="img-sm">
+      <img src="cervino_s2.png" alt="">
+      <span class="shot-label">Vista posteriore</span>
+    </div>
+    <div class="img-sm">
+      <img src="cervino_s3.png" alt="">
+      <span class="shot-label">Vista laterale</span>
+    </div>
+  </div>
+  <div class="bottom-info">
+    <div>
+      <div class="product-name">Cervino</div>
+      <div class="product-sub">Giubbotto in ecopelle con fodera sherpa</div>
+    </div>
+    <div class="price-cta">
+      <div class="price">€ 59,99</div>
+      <div class="cta-btn">Scopri di più</div>
+      <div class="site-url">luceramoda.com</div>
+    </div>
+  </div>
+</div>
+
+<!-- NICOLA -->
+<div class="ad" data-id="nicola">
+  <div class="accent-strip"></div>
+  <div class="top-bar">
+    <span class="brand">Lucera</span>
+    <span class="season-tag">FW 2025 · Capospalla</span>
+  </div>
+  <div class="grid">
+    <div class="img-main">
+      <img src="nicola_s1.png" alt="">
+      <span class="shot-label">Vista frontale</span>
+    </div>
+    <div class="img-sm">
+      <img src="nicola_s2.png" alt="">
+      <span class="shot-label">Vista posteriore</span>
+    </div>
+    <div class="img-sm">
+      <img src="nicola_s3.png" alt="">
+      <span class="shot-label">Vista laterale</span>
+    </div>
+  </div>
+  <div class="bottom-info">
+    <div>
+      <div class="product-name">Nicola</div>
+      <div class="product-sub">Giacca invernale con fodera termica</div>
+    </div>
+    <div class="price-cta">
+      <div class="price">€ 64,99</div>
+      <div class="cta-btn">Scopri di più</div>
+      <div class="site-url">luceramoda.com</div>
+    </div>
+  </div>
+</div>
+
+<!-- MARCO -->
+<div class="ad" data-id="marco">
+  <div class="accent-strip"></div>
+  <div class="top-bar">
+    <span class="brand">Lucera</span>
+    <span class="season-tag">FW 2025 · Capospalla</span>
+  </div>
+  <div class="grid">
+    <div class="img-main">
+      <img src="marco_s1.png" alt="">
+      <span class="shot-label">Vista frontale</span>
+    </div>
+    <div class="img-sm">
+      <img src="marco_s2.png" alt="">
+      <span class="shot-label">Vista posteriore</span>
+    </div>
+    <div class="img-sm">
+      <img src="marco_s3.png" alt="">
+      <span class="shot-label">Vista laterale</span>
+    </div>
+  </div>
+  <div class="bottom-info">
+    <div>
+      <div class="product-name">Marco</div>
+      <div class="product-sub">Piumino leggero con colletto alto</div>
+    </div>
+    <div class="price-cta">
+      <div class="price">€ 49,99</div>
+      <div class="cta-btn">Scopri di più</div>
+      <div class="site-url">luceramoda.com</div>
+    </div>
+  </div>
+</div>
+
+<!-- ROMANO -->
+<div class="ad" data-id="romano">
+  <div class="accent-strip"></div>
+  <div class="top-bar">
+    <span class="brand">Lucera</span>
+    <span class="season-tag">FW 2025 · Capospalla</span>
+  </div>
+  <div class="grid">
+    <div class="img-main">
+      <img src="romano_s1.jpg" alt="">
+      <span class="shot-label">Vista frontale</span>
+    </div>
+    <div class="img-sm">
+      <img src="romano_s2.jpg" alt="">
+      <span class="shot-label">Vista posteriore</span>
+    </div>
+    <div class="img-sm">
+      <img src="romano_s3.jpg" alt="">
+      <span class="shot-label">Vista laterale</span>
+    </div>
+  </div>
+  <div class="bottom-info">
+    <div>
+      <div class="product-name">Romano</div>
+      <div class="product-sub">Trench lungo con cappuccio</div>
+    </div>
+    <div class="price-cta">
+      <div class="price">€ 69,95</div>
+      <div class="cta-btn">Scopri di più</div>
+      <div class="site-url">luceramoda.com</div>
+    </div>
+  </div>
+</div>
+
+<!-- THATCHER -->
+<div class="ad" data-id="thatcher">
+  <div class="accent-strip"></div>
+  <div class="top-bar">
+    <span class="brand">Lucera</span>
+    <span class="season-tag">FW 2025 · Accessori</span>
+  </div>
+  <div class="grid">
+    <div class="img-main">
+      <img src="thatcher_s1.png" alt="">
+      <span class="shot-label">Vista frontale</span>
+    </div>
+    <div class="img-sm">
+      <img src="thatcher_s2.png" alt="">
+      <span class="shot-label">Vista posteriore</span>
+    </div>
+    <div class="img-sm">
+      <img src="thatcher_s3.png" alt="">
+      <span class="shot-label">Vista laterale</span>
+    </div>
+  </div>
+  <div class="bottom-info">
+    <div>
+      <div class="product-name">Thatcher</div>
+      <div class="product-sub">Coppola in lana a quadri</div>
+    </div>
+    <div class="price-cta">
+      <div class="price">€ 44,90</div>
+      <div class="cta-btn">Scopri di più</div>
+      <div class="site-url">luceramoda.com</div>
+    </div>
+  </div>
+</div>
+
+<div id="nav"></div>
+<script>
+const ads = document.querySelectorAll('.ad');
+const products = [...ads].map(a => a.dataset.id);
+const nav = document.getElementById('nav');
+products.forEach((p, i) => {
+  const btn = document.createElement('button');
+  btn.textContent = p;
+  btn.onclick = () => show(i);
+  nav.appendChild(btn);
+});
+function show(i) {
+  ads.forEach(a => a.classList.remove('active'));
+  ads[i].classList.add('active');
+  nav.querySelectorAll('button').forEach((b, j) => b.classList.toggle('on', j === i));
+}
+function fromHash() {
+  const h = location.hash.slice(1);
+  const idx = products.indexOf(h);
+  show(idx >= 0 ? idx : 0);
+}
+window.addEventListener('hashchange', fromHash);
+fromHash();
+</script>
+</body>
+</html>
