@@ -1,0 +1,231 @@
+{
+ "id": "batch-4",
+ "name": "Batch 4 (Cervino, Nicola, Marco, Romano, Thatcher)",
+ "campaign": "Lucera - Lancio batch 4 (5 capospalla + accessori)",
+ "adset": "week 1 - IT 18-55 M",
+ "ads": [
+  {
+   "name": "cervino singola fronte",
+   "type": "image",
+   "file": "batches/batch-4/files/cervino_s1.png",
+   "title": "Giubbotto in Pelle con Fodera Sherpa",
+   "body": "Pelle fuori. Sherpa dentro. Il Cervino è il giubbotto che non fa scegliere tra caldo e stile. Con jeans e stivali è già un look. Consegna gratuita in Italia, reso entro 30 giorni.",
+   "link": "https://luceramoda.com/products/cervino-giubbotto-in-pelle-con-collo-e-fodera-sherpa",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b4&utm_content=cervino_s1",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "cervino singola retro",
+   "type": "image",
+   "file": "batches/batch-4/files/cervino_s2.png",
+   "title": "Giubbotto in Pelle con Fodera Sherpa",
+   "body": "Ecopelle a grana fitta, fodera sherpa, zip metalliche e polsini a fascia: ogni dettaglio è lì per durare. Con camicia nera e pantaloni slim per la sera. Consegna gratuita in Italia.",
+   "link": "https://luceramoda.com/products/cervino-giubbotto-in-pelle-con-collo-e-fodera-sherpa",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b4&utm_content=cervino_s2",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "cervino catalog",
+   "type": "image",
+   "file": "batches/batch-4/files/cervino_catalog.png",
+   "title": "Giubbotto in Pelle con Fodera Sherpa",
+   "body": "Due scatti. Un giubbotto. Il Cervino — ecopelle e fodera sherpa — è quello che metti quando vuoi sembrare curato senza pensarci. Taglie dalla S alla 2XL. Consegna gratuita.",
+   "link": "https://luceramoda.com/products/cervino-giubbotto-in-pelle-con-collo-e-fodera-sherpa",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b4&utm_content=cervino_catalog",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "cervino video",
+   "type": "video",
+   "file": "batches/batch-4/files/cervino_video.mp4",
+   "title": "Giubbotto in Pelle con Fodera Sherpa",
+   "body": "Il Cervino di notte. Pelle, caldo, stile che dura. Con carta, PayPal o 3 rate senza interessi.",
+   "link": "https://luceramoda.com/products/cervino-giubbotto-in-pelle-con-collo-e-fodera-sherpa",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b4&utm_content=cervino_video",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "nicola singola fronte",
+   "type": "image",
+   "file": "batches/batch-4/files/nicola_s1.png",
+   "title": "Giacca Invernale con Fodera Termica",
+   "body": "Il freddo arriva. La Nicola è già pronta. Fodera termica, esterno antivento, cappuccio che scompare nel colletto. Dal lavoro al weekend. Consegna gratuita in Italia, reso entro 30 giorni.",
+   "link": "https://luceramoda.com/products/nathaniel-giacca-invernale-con-fodera-termica",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b4&utm_content=nicola_s1",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "nicola singola retro",
+   "type": "image",
+   "file": "batches/batch-4/files/nicola_s2.png",
+   "title": "Giacca Invernale con Fodera Termica",
+   "body": "Caldo uniforme, nessun gonfiore, cappuccio regolabile. La Nicola — esterno antivento e fodera termica — funziona quando le altre no. Consegna gratuita in Italia.",
+   "link": "https://luceramoda.com/products/nathaniel-giacca-invernale-con-fodera-termica",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b4&utm_content=nicola_s2",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "nicola catalog",
+   "type": "image",
+   "file": "batches/batch-4/files/nicola_catalog.png",
+   "title": "Giacca Invernale con Fodera Termica",
+   "body": "Due scatti. Una giacca. La Nicola — antivento e termica — funziona quando le altre no. Taglie dalla S alla 2XL. Consegna gratuita.",
+   "link": "https://luceramoda.com/products/nathaniel-giacca-invernale-con-fodera-termica",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b4&utm_content=nicola_catalog",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "nicola video",
+   "type": "video",
+   "file": "batches/batch-4/files/nicola_video.mp4",
+   "title": "Giacca Invernale con Fodera Termica",
+   "body": "La Nicola di notte. Caldo uniforme, stile che non chiede sforzo. Con carta, PayPal o 3 rate senza interessi.",
+   "link": "https://luceramoda.com/products/nathaniel-giacca-invernale-con-fodera-termica",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b4&utm_content=nicola_video",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "marco singola fronte",
+   "type": "image",
+   "file": "batches/batch-4/files/marco_s1.png",
+   "title": "Piumino Leggero con Colletto Alto",
+   "body": "Leggero nello zaino. Caldo sul serio. Il Marco si arrotola su se stesso e sparisce quando non serve. ThermalShield™ a canali: caldo uniforme, zero gonfiore. Consegna gratuita.",
+   "link": "https://luceramoda.com/products/marco-piumino-leggero",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b4&utm_content=marco_s1",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "marco singola retro",
+   "type": "image",
+   "file": "batches/batch-4/files/marco_s2.png",
+   "title": "Piumino Leggero con Colletto Alto",
+   "body": "Il piumino che non ingombra. Colletto alto, zip in metallo, tessuto ripstop. Il Marco è lo strato che cambia la stagione senza pesare. Consegna gratuita in Italia.",
+   "link": "https://luceramoda.com/products/marco-piumino-leggero",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b4&utm_content=marco_s2",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "marco catalog",
+   "type": "image",
+   "file": "batches/batch-4/files/marco_catalog.png",
+   "title": "Piumino Leggero con Colletto Alto",
+   "body": "Due scatti. Un piumino. Il Marco — ThermalShield™ e colletto alto — entra nello zaino e si adatta a tutto. Taglie dalla S alla 2XL. Consegna gratuita.",
+   "link": "https://luceramoda.com/products/marco-piumino-leggero",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b4&utm_content=marco_catalog",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "marco video",
+   "type": "video",
+   "file": "batches/batch-4/files/marco_video.mp4",
+   "title": "Piumino Leggero con Colletto Alto",
+   "body": "Il Marco di notte. Leggero, caldo, ovunque. Con carta, PayPal o 3 rate senza interessi.",
+   "link": "https://luceramoda.com/products/marco-piumino-leggero",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b4&utm_content=marco_video",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com",
+   "note": "VIDEO PENDING — esegui il nodo FINAL Night Walk in Magnific, poi scarica qui come marco_video.mp4"
+  },
+  {
+   "name": "romano singola fronte",
+   "type": "image",
+   "file": "batches/batch-4/files/romano_s1.jpg",
+   "title": "Trench Lungo con Cappuccio",
+   "body": "Il trench che copre davvero. Il Romano arriva fino al ginocchio, cappuccio effetto due pezzi, tessuto che non lascia passare il vento. Con jeans o pantaloni, funziona. Consegna gratuita.",
+   "link": "https://luceramoda.com/products/trench-lungo-cappuccio-effetto-due-pezzi",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b4&utm_content=romano_s1",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "romano singola retro",
+   "type": "image",
+   "file": "batches/batch-4/files/romano_s2.jpg",
+   "title": "Trench Lungo con Cappuccio",
+   "body": "Cappuccio removibile, revers classici, bottoni solidi. Il Romano in verde militare o nero: il trench che diventa il capospalla del guardaroba. Taglie dalla S alla 4XL. Consegna gratuita.",
+   "link": "https://luceramoda.com/products/trench-lungo-cappuccio-effetto-due-pezzi",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b4&utm_content=romano_s2",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "romano catalog",
+   "type": "image",
+   "file": "batches/batch-4/files/romano_catalog.png",
+   "title": "Trench Lungo con Cappuccio",
+   "body": "Due scatti. Un trench. Il Romano — lungo, con cappuccio — chiude ogni look dal giorno alla sera. Taglie dalla S alla 4XL. Consegna gratuita.",
+   "link": "https://luceramoda.com/products/trench-lungo-cappuccio-effetto-due-pezzi",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b4&utm_content=romano_catalog",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "romano video",
+   "type": "video",
+   "file": "batches/batch-4/files/romano_video.mp4",
+   "title": "Trench Lungo con Cappuccio",
+   "body": "Il Romano di notte. Lungo, con cappuccio, in città. Con carta, PayPal o 3 rate senza interessi.",
+   "link": "https://luceramoda.com/products/trench-lungo-cappuccio-effetto-due-pezzi",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b4&utm_content=romano_video",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com",
+   "note": "VIDEO PENDING — esegui il nodo FINAL Night Walk in Magnific, poi scarica qui come romano_video.mp4"
+  },
+  {
+   "name": "thatcher singola fronte",
+   "type": "image",
+   "file": "batches/batch-4/files/thatcher_s1.png",
+   "title": "Coppola in Lana a Quadri",
+   "body": "La coppola che finisce un look. La Thatcher è in lana a quadri, visiera strutturata, misura regolabile. Funziona con il bomber, il trench, il cappotto. Consegna gratuita in Italia.",
+   "link": "https://luceramoda.com/products/thatcher-coppola-lana-quadri",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b4&utm_content=thatcher_s1",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "thatcher singola retro",
+   "type": "image",
+   "file": "batches/batch-4/files/thatcher_s2.png",
+   "title": "Coppola in Lana a Quadri",
+   "body": "Lana a quadri, fodera morbida, misura regolabile. La Thatcher è il dettaglio che cambia il senso di un outfit. Due colori: Blu navy, Marrone caffè. Consegna gratuita in Italia.",
+   "link": "https://luceramoda.com/products/thatcher-coppola-lana-quadri",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b4&utm_content=thatcher_s2",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "thatcher catalog",
+   "type": "image",
+   "file": "batches/batch-4/files/thatcher_catalog.png",
+   "title": "Coppola in Lana a Quadri",
+   "body": "Due scatti. Una coppola. La Thatcher — lana a quadri — è il pezzo facile che cambia l'outfit. Due colori, misura regolabile. Consegna gratuita.",
+   "link": "https://luceramoda.com/products/thatcher-coppola-lana-quadri",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b4&utm_content=thatcher_catalog",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com"
+  },
+  {
+   "name": "thatcher video",
+   "type": "video",
+   "file": "batches/batch-4/files/thatcher_video.mp4",
+   "title": "Coppola in Lana a Quadri",
+   "body": "La Thatcher di notte. Il dettaglio che completa il look. Con carta, PayPal o 3 rate senza interessi.",
+   "link": "https://luceramoda.com/products/thatcher-coppola-lana-quadri",
+   "tags": "utm_source=facebook&utm_medium=paid_social&utm_campaign=lancio_b4&utm_content=thatcher_video",
+   "cta": "SHOP_NOW",
+   "display": "luceramoda.com",
+   "note": "VIDEO PENDING — esegui il nodo FINAL Night Walk in Magnific, poi scarica qui come thatcher_video.mp4"
+  }
+ ]
+}
